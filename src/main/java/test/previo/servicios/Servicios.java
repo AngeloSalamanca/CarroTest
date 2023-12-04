@@ -14,7 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 public class Servicios {
 
-	private static final String FILE_DIRCTORY = "";
+	private static final String FILE_DIRCTORY = "/home/user/web";
 	
 	private final Path rootLocation = Paths.get(FILE_DIRCTORY);
 	
